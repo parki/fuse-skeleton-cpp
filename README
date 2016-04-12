@@ -1,0 +1,19 @@
+In order to build:
+
+cd build
+cmake ..
+make
+
+
+In order to run:
+fusedrive <mount point>
+
+Example:
+mkdir /Volumes/hellodrive
+fusedrive /Volumes/hellodrive
+
+To umount:
+umount <mount point>
+
+Example:
+umount /Volumes/hellodrive
